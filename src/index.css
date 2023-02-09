@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.all-text {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.all-text:hover {
+  text-decoration: none;
+  color: #070b71;
+}
+.header {
+  font-size: calc(3px + 1vw);
+  color: #b8bafd;
+  font-family: Montserrat-Bold;
+  padding-left: 8vw;
+  text-decoration: none;
+  text-align: center;
+}
+
+.home_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.home_first {
+  margin-top: "2vw";
+  width: 100%;
+}
+
+.home_h3 {
+  font-size: calc(2px + 1.8vw);
+  font-family: Montserrat-Medium;
+  padding-top: 6vw;
+  padding-left: 5vw;
+  padding-right: 4vw;
+}
+
+.home_body {
+  text-decoration-line: none;
+  font-size: calc(1px + 1.5vw);
+  font-family: Montserrat-regular;
+  padding-top: 4vw;
+  padding-left: 5vw;
+  padding-right: 4vw;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold.ttf"),
+    url("./global/font/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
